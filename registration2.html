@@ -1,0 +1,38 @@
+<form action="process.php" method="post">
+    <p> My Registration Form</p>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name">
+   <br/>
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name">
+   
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+   
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+   
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    
+    <label for="decline">Prefer not to say</label>
+    <input type="radio" id="decline" name="gender" value="decline">
+    <br/>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+   <label for="pw_confirm">Password Confirmation:</label>
+   <input type="password" id="pw_confirm" name="password_confirmation">
+   <br/>
+   <label for="start">Start date:</label>
+
+   <input type="date" id="start" name="trip-start"
+          value="2018-07-22"
+          min="2018-01-01" max="2018-12-31">
+   
+
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+    
+   <input type="submit" value="Click here to register">
+</form>

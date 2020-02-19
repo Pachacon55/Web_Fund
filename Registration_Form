@@ -1,0 +1,34 @@
+<html/>
+<form action = "/Registration Form" method="post">
+    <p>Registration Form</p>
+        <label for="first_name"> First Name:" </label> 
+        <input type="text" id="first_name" name="first_name">
+        <label for="last name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+        <label for='email">Email:,/label>
+        <input type="text" id=email" name="email">
+        <label for="password">Password</label>
+        <input type="text" id="email" name="email">
+        <p>Password confirm</p>
+
+    <select Birthday="Birthday">
+        <option value="month">month</option>
+        <option value="day">day</option>
+        <option value="year">year</option>
+
+     <label for="male">Male</label>
+     <input type="radio" id=male name=gender" value="male">
+     <label for="female"</label>
+     <input type="radio" id="female" name="gender" value="female">
+     <label for="other">Prefer not to say</label>
+     <input type="radio" id="other" name="gender" value="decline">   
+   
+   <textarea name="A_short_description_about_yourself"></textarea>
+
+    
+    Favorite Language <scroll down for JavaScript...
+
+
+        </label>
+            <input type="submit" value="Submit"
+    </form>
