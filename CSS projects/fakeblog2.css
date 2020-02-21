@@ -1,0 +1,21 @@
+<h1>#title{font-family:Comic Sans; color:white; 
+    background-color: pink} 
+</h1>
+
+p {
+   .color:blue;
+   background-color: pink;
+  }
+  #special {
+      color:rgb(255, 0, 170);
+      font-weight:bold;
+  }
+  .not-as-special {
+      font-weight:bold;
+  }
+  p {#special{
+      color:red;
+      font-style: serif;
+  }
+  
+

@@ -1,7 +1,10 @@
 /*CSS reset settings here*/
-*{
-    margin: 0px;
-    padding: 0px;
+*{container
+* {
+    box-sizing:border-box;
+    }
+    margin: 4px;
+    padding: 10px;
    }
    #wrapper{
     width: 950px;
